@@ -88,6 +88,7 @@ If you hit a bug or have a feature request, open an issue on this repo.
 
 ## License and terms
 
+- [Privacy Policy](https://htmlpreview.github.io/?https://github.com/thethereza/rcycle-package/blob/main/privacy.html) — how your data is handled.
 - Use of the Service is subject to the Terms of Service and Privacy Policy bundled with the app.
 - Indoor cycling carries inherent physical risk. You use RCycle at your own risk.
 
