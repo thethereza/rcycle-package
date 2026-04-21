@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>RCycle Privacy Policy</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    max-width: 760px;
+    margin: 2.5rem auto;
+    padding: 0 1.25rem;
+    line-height: 1.55;
+    color: #1f2937;
+    background: #fafafa;
+  }
+  h1 { font-size: 1.9rem; margin-bottom: 0.25rem; }
+  h2 { margin-top: 2rem; font-size: 1.25rem; border-bottom: 1px solid #e5e7eb; padding-bottom: 0.25rem; }
+  h3 { font-size: 1rem; margin-top: 1.25rem; }
+  .meta { color: #6b7280; font-size: 0.9rem; margin-bottom: 1.5rem; }
+  ul { padding-left: 1.25rem; }
+  code { background: #eef2f7; padding: 0 0.25rem; border-radius: 3px; font-size: 0.9em; }
+  a { color: #2563eb; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e5e7eb; background: #0f172a; }
+    h2 { border-color: #1e293b; }
+    code { background: #1e293b; }
+    .meta { color: #94a3b8; }
+  }
+</style>
+</head>
+<body>
+
+<h1>RCycle Privacy Policy</h1>
+<p class="meta">Last updated: April 21, 2026</p>
+
+<p>
+  This Privacy Policy explains how <strong>RCycle</strong> ("RCycle", "we", "us") collects,
+  uses, and discloses information when you use the RCycle desktop application and its
+  associated cloud service. RCycle is operated by Reza Naima. If you have questions
+  about this policy or your data, contact us at
+  <a href="mailto:reza747895@gmail.com">reza747895@gmail.com</a>.
+</p>
+
+<p>
+  This policy applies globally. Residents of the European Economic Area, the United
+  Kingdom, and California have additional rights described below.
+</p>
+
+<h2>1. What RCycle Does</h2>
+<p>
+  RCycle is an indoor-cycling application. It connects to Bluetooth Low Energy (BLE)
+  fitness devices (smart trainers, heart-rate monitors, power meters, cadence sensors)
+  on your computer, renders real-world routes, and — if you choose — synchronises your
+  rides with Strava and with our cloud service so that you can see other riders on the
+  same route.
+</p>
+
+<h2>2. Information We Collect</h2>
+
+<h3>2.1 Local device data (stays on your computer)</h3>
+<p>
+  The local RCycle backend pairs with your BLE devices and reads live measurements
+  (power, cadence, heart rate, speed, resistance, grade). Raw BLE data is processed on
+  your machine and is <strong>not</strong> transmitted to our cloud except as summarised
+  ride data described below.
+</p>
+
+<h3>2.2 Account data (via Strava)</h3>
+<p>
+  When you sign in with Strava, Strava shares the following with us after you authorise
+  it:
+</p>
+<ul>
+  <li>Your Strava numeric ID</li>
+  <li>Your display name</li>
+  <li>Your avatar URL</li>
+  <li>OAuth access and refresh tokens, and their expiry time</li>
+</ul>
+<p>
+  We store this information so that you remain signed in, and so that rides you choose
+  to upload can be posted to your Strava account.
+</p>
+
+<h3>2.3 Rider profile</h3>
+<p>
+  You may enter rider/physics settings used for the ride simulation, including rider
+  weight, bike weight, FTP, aerodynamic drag (CdA), rolling resistance (Crr),
+  drivetrain efficiency, and maximum power. These are stored in your RCycle account.
+</p>
+
+<h3>2.4 Ride data</h3>
+<p>
+  When you complete a ride, we store summary metrics: route identifier, start/end
+  timestamps, distance, duration, elevation gain, average power, average speed, a
+  pointer to the local ride log on your machine, and — if you uploaded to Strava — the
+  resulting Strava activity ID.
+</p>
+<p>
+  While a ride is active, the app sends periodic <em>ride snapshots</em> (approximately
+  once per second) containing your position on the route, current speed, and power to
+  our cloud so that other riders on the same route can see your location in real time.
+  Snapshots for past rides are not retained beyond what is needed to render the
+  summary above.
+</p>
+
+<h3>2.5 Information we do <em>not</em> collect</h3>
+<ul>
+  <li>We do not use analytics, crash-reporting, advertising, or tracking SDKs.</li>
+  <li>We do not collect contacts, messages, microphone, or camera data.</li>
+  <li>We do not sell your personal information.</li>
+</ul>
+
+<h2>3. How We Use Your Information</h2>
+<ul>
+  <li>To authenticate you and keep you signed in.</li>
+  <li>To run the ride simulation using your rider profile.</li>
+  <li>To show nearby riders on the same virtual route.</li>
+  <li>To upload your rides to Strava at your request.</li>
+  <li>To operate, secure, and debug the service.</li>
+</ul>
+<p>
+  We do not use your data for advertising or for training machine-learning models.
+</p>
+
+<h2>4. Third-Party Services</h2>
+
+<h3>4.1 Strava</h3>
+<p>
+  If you connect a Strava account, data flows between RCycle and Strava under
+  Strava's own terms and privacy policy. You can disconnect Strava at any time in the
+  app's account settings, and you can revoke RCycle's access from your Strava account
+  at any time at
+  <a href="https://www.strava.com/settings/apps">strava.com/settings/apps</a>.
+</p>
+
+<h3>4.2 Map and terrain tiles</h3>
+<p>
+  The app displays maps using tiles fetched directly from third parties:
+</p>
+<ul>
+  <li><strong>Esri World Imagery</strong> — satellite imagery tiles.</li>
+  <li><strong>Amazon Web Services (AWS) Terrain Tiles</strong> — public-domain elevation data.</li>
+  <li><strong>MapLibre demo tile server</strong> — map fonts/glyphs.</li>
+</ul>
+<p>
+  When your app fetches a tile, the tile provider receives your IP address and the
+  coordinates of the tile you are viewing. We do not control those providers'
+  logging practices. Refer to their privacy policies for details.
+</p>
+
+<h3>4.3 Automatic updates</h3>
+<p>
+  The desktop application checks GitHub for new releases and downloads updates from
+  GitHub when available. GitHub receives the request (including your IP address) as
+  part of this process.
+</p>
+
+<h2>5. Where Your Data Is Stored</h2>
+<p>
+  The RCycle cloud service is currently hosted in California, United States. If you
+  access the service from outside the United States, your information will be
+  transferred to and processed in the United States. Where required, we rely on
+  appropriate legal mechanisms (such as the Standard Contractual Clauses) for
+  international transfers.
+</p>
+
+<h2>6. Data Retention and Deletion</h2>
+<p>
+  We retain your account and ride data for as long as your account exists. You may
+  delete your account at any time from within the app. When you do, we
+  <strong>immediately and permanently delete</strong> your user record, your Strava
+  tokens, your rider profile, and your ride history from our database. Deletion is
+  not reversible.
+</p>
+<p>
+  Rides you have already uploaded to Strava remain on Strava and are governed by
+  Strava's own policies; to remove those, delete them in Strava.
+</p>
+
+<h2>7. Security</h2>
+<p>
+  We use HTTPS for traffic between the app and the cloud service and encrypt
+  authentication tokens at rest. No system is perfectly secure. Please use a strong,
+  unique password on any third-party account you connect to RCycle.
+</p>
+
+<h2>8. Children</h2>
+<p>
+  RCycle is not directed to children under 13, and we do not knowingly collect personal
+  information from children under 13. If you believe a child has provided us with
+  personal information, contact us and we will delete it.
+</p>
+
+<h2>9. Your Rights (EEA / UK / GDPR)</h2>
+<p>
+  If you are in the EEA or UK, you have the right to access, correct, delete, restrict
+  or object to our processing of your personal data, and the right to data
+  portability. You also have the right to lodge a complaint with your local data
+  protection authority. Our lawful bases for processing are (a) your consent, (b)
+  performance of a contract (providing the service), and (c) our legitimate interest
+  in operating and securing the service. Contact
+  <a href="mailto:reza747895@gmail.com">reza747895@gmail.com</a> to exercise these rights.
+</p>
+
+<h2>10. Your Rights (California / CCPA / CPRA)</h2>
+<p>
+  California residents have the right to know what personal information we collect,
+  to request deletion, to correct inaccurate information, and to opt out of sale or
+  sharing of personal information. <strong>We do not sell or share personal
+  information</strong> as those terms are defined under the CCPA/CPRA. We do not
+  use sensitive personal information for purposes beyond those permitted by law.
+  To exercise your rights, contact
+  <a href="mailto:reza747895@gmail.com">reza747895@gmail.com</a>.
+</p>
+
+<h2>11. Changes to This Policy</h2>
+<p>
+  We may update this policy from time to time. Material changes will be reflected by
+  updating the "Last updated" date above and, where appropriate, by in-app notice.
+</p>
+
+<h2>12. Contact</h2>
+<p>
+  Questions, requests, or complaints about this policy or your data:
+  <a href="mailto:reza747895@gmail.com">reza747895@gmail.com</a>.
+</p>
+
+</body>
+</html>
