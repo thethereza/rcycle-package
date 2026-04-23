@@ -60,12 +60,13 @@ RCycle is an indoor cycling application that lets you simulate riding **any rout
 
 ## Install
 
-Download the latest build from the [Releases](../../releases) page:
+| Platform | Download |
+|---|---|
+| **Windows** (x64) | [RCycle-latest-win-x64.exe](https://github.com/thethereza/rcycle-package/releases/latest/download/RCycle-latest-win-x64.exe) |
+| **macOS** (Apple Silicon) | [RCycle-latest-mac-arm64.zip](https://github.com/thethereza/rcycle-package/releases/latest/download/RCycle-latest-mac-arm64.zip) |
+| **macOS** (Intel) | [RCycle-latest-mac-x64.zip](https://github.com/thethereza/rcycle-package/releases/latest/download/RCycle-latest-mac-x64.zip) |
 
-- **Windows**: `RCycle-<version>-win-x64.exe` — run the installer.
-- **macOS**: `RCycle-<version>-mac-<arch>.dmg` — open and drag to Applications.
-
-Updates are delivered automatically.
+Run the Windows installer or extract the macOS zip and move RCycle to Applications. Updates are delivered automatically.
 
 ## Quick start
 
