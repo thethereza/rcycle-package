@@ -72,13 +72,13 @@ Stable builds are the default channel and are recommended for most riders. These
 
 ### Latest Beta
 
-Beta builds are prereleases. In the app, switch Settings -> Updates -> Beta to receive beta updates automatically.
+Beta builds are prereleases. To install one manually, open the [GitHub Releases page](https://github.com/thethereza/rcycle-package/releases), find the newest release marked **Pre-release**, and download the asset for your platform:
 
-| Platform | Download |
-|---|---|
-| **Windows** (x64) | [Latest beta release](https://github.com/thethereza/rcycle-package/releases) |
-| **macOS** (Apple Silicon) | [Latest beta release](https://github.com/thethereza/rcycle-package/releases) |
-| **macOS** (Intel) | Coming soon |
+- Windows: `RCycle-*-win-x64.exe`
+- macOS Apple Silicon: `RCycle-*-mac-arm64.zip`
+- macOS Intel: `RCycle-*-mac-x64.zip`
+
+In the app, switch Settings -> Updates -> Beta to receive beta updates automatically.
 
 Run the Windows installer or extract the macOS zip and move RCycle to Applications. Updates are delivered automatically.
 
