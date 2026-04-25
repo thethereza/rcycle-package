@@ -67,8 +67,8 @@ Stable builds are the default channel and are recommended for most riders. These
 | Platform | Download |
 |---|---|
 | **Windows** (x64) | [Latest stable Windows installer](https://github.com/thethereza/rcycle-package/releases/latest/download/RCycle-latest-win-x64.exe) |
-| **macOS** (Apple Silicon) | Coming soon |
-| **macOS** (Intel) | Coming soon |
+| **macOS** (Apple Silicon) | [Latest stable macOS Apple Silicon build](https://github.com/thethereza/rcycle-package/releases/latest/download/RCycle-latest-mac-arm64.zip) |
+| **macOS** (Intel) | [Latest stable macOS Intel build](https://github.com/thethereza/rcycle-package/releases/latest/download/RCycle-latest-mac-x64.zip) |
 
 ### Latest Beta
 
