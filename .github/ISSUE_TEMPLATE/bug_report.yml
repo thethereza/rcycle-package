@@ -1,0 +1,72 @@
+name: Bug report
+description: Report something that broke, blocked a ride, or behaved unexpectedly.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. Specific details make RCycle much easier to fix.
+
+  - type: input
+    id: app-version
+    attributes:
+      label: RCycle version
+      description: Find this in the app or the downloaded release filename.
+      placeholder: "v0.10.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: Operating system
+      options:
+        - Windows 11
+        - Windows 10
+        - macOS Apple Silicon
+        - macOS Intel
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: trainer-model
+    attributes:
+      label: Trainer or sensor model
+      description: Include smart trainer, power meter, heart-rate monitor, cadence sensor, or speed sensor details if relevant.
+      placeholder: "Wahoo KICKR Core, Garmin HRM, etc."
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the issue and what you expected instead.
+      placeholder: "RCycle connected to the trainer, but..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the exact steps that trigger the problem.
+      placeholder: |
+        1. Open RCycle
+        2. Pair trainer
+        3. Start ride
+        4. ...
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Paste relevant logs or drag screenshots here. Remove anything private first.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked that this issue is not already reported.
+          required: true

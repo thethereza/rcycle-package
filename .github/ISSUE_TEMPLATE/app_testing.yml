@@ -1,0 +1,65 @@
+name: Volunteer for app testing
+description: Offer to test RCycle builds on real hardware.
+title: "[Testing volunteer]: "
+labels: ["testing", "volunteer"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for offering to test RCycle. Please share what hardware and platform you can test. No email address is required; replies can happen in this GitHub issue.
+
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: What can you test on?
+      options:
+        - Windows 11
+        - Windows 10
+        - macOS Apple Silicon
+        - macOS Intel
+        - Multiple platforms
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: trainer-model
+    attributes:
+      label: Smart trainer model
+      placeholder: "Wahoo KICKR Core, Tacx Neo, Zwift Hub, etc."
+    validations:
+      required: true
+
+  - type: textarea
+    id: sensors
+    attributes:
+      label: Other sensors or devices
+      description: List power meters, heart-rate monitors, cadence sensors, speed sensors, or virtual BLE tools you can test.
+      placeholder: "Garmin HRM, cadence sensor, virtual FTMS device, etc."
+
+  - type: checkboxes
+    id: testing-areas
+    attributes:
+      label: What are you willing to test?
+      options:
+        - label: Installing new builds
+        - label: Pairing and reconnecting trainer hardware
+        - label: Smart trainer resistance or grade changes
+        - label: Route import and ride behavior
+        - label: Strava login or activity sync
+        - label: Multiplayer or nearby rider behavior
+        - label: Logs and diagnostics
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else useful?
+      description: Mention your experience level, testing constraints, or anything unusual about your setup.
+
+  - type: checkboxes
+    id: contact
+    attributes:
+      label: Contact preference
+      options:
+        - label: Please reply in this GitHub issue. I do not need to share an email address.
+          required: true

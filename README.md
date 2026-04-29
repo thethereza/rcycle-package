@@ -60,11 +60,25 @@ RCycle is an indoor cycling application that lets you simulate riding **any rout
 
 ## Install
 
+### Latest Stable
+
+Stable builds are the default channel and are recommended for most riders. These links follow the latest stable GitHub Release after each stable publish.
+
 | Platform | Download |
 |---|---|
-| **Windows** (x64) | [RCycle-latest-win-x64.exe](https://github.com/thethereza/rcycle-package/releases/latest/download/RCycle-latest-win-x64.exe) |
-| **macOS** (Apple Silicon) | [RCycle-latest-mac-arm64.zip](https://github.com/thethereza/rcycle-package/releases/latest/download/RCycle-latest-mac-arm64.zip) |
-| **macOS** (Intel) | [RCycle-latest-mac-x64.zip](https://github.com/thethereza/rcycle-package/releases/latest/download/RCycle-latest-mac-x64.zip) |
+| **Windows** (x64) | [Latest stable Windows installer](https://github.com/thethereza/rcycle-package/releases/latest/download/RCycle-latest-win-x64.exe) |
+| **macOS** (Apple Silicon) | [Latest stable macOS Apple Silicon build](https://github.com/thethereza/rcycle-package/releases/latest/download/RCycle-latest-mac-arm64.zip) |
+| **macOS** (Intel) | [Latest stable macOS Intel build](https://github.com/thethereza/rcycle-package/releases/latest/download/RCycle-latest-mac-x64.zip) |
+
+### Latest Beta
+
+Beta builds are prereleases. To install one manually, open the [GitHub Releases page](https://github.com/thethereza/rcycle-package/releases), find the newest release marked **Pre-release**, and download the asset for your platform:
+
+- Windows: `RCycle-*-win-x64.exe`
+- macOS Apple Silicon: `RCycle-*-mac-arm64.zip`
+- macOS Intel: `RCycle-*-mac-x64.zip`
+
+In the app, switch Settings -> Updates -> Beta to receive beta updates automatically.
 
 Run the Windows installer or extract the macOS zip and move RCycle to Applications. Updates are delivered automatically.
 
